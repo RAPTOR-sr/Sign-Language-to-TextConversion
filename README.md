@@ -15,6 +15,8 @@ The project consists of two main scripts:
 - Sign language to text conversion.
 - Easy to use and extend for further development.
 
+**Note:** The model is trained only with landmarks and connections (or skeletons) of the hand gestures. For real-time usage, accurate predictions depend on the quality of the detected landmarks and connections.
+
 ## Installation
 
 To run this project, you'll need to install the following libraries:
@@ -28,3 +30,4 @@ To run this project, you'll need to install the following libraries:
 
 ```bash
 pip install opencv-python cvzone tensorflow numpy
+```
